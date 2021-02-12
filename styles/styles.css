@@ -34,4 +34,13 @@ div.switch-container {
 
 span.switch {
     display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    transition: .5s ease;
+    box-shadow: 0 0 10px rgba(128,86,227,.6);
+    transform: translateX(-30%);
+    display: grid;
+    place-content: center;
 }
